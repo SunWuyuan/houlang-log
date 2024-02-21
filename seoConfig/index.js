@@ -1,12 +1,12 @@
 export default {
-  title: "Logspot - Opensource changelog template",
+  title: "厚浪 - 时间线",
   description:
-    "Logspot is an open source change log template made with Nuxt, Vue, and Tailwindcss.",
+    "长江后浪推前浪,浮世新人换旧人.",
   og: {
-    title: "Logspot - Opensource changelog template",
+    title: "厚浪 - 时间线",
     description:
-      "Logspot is an open source change log template made with Nuxt, Vue, and Tailwindcss.",
-    image: "https://logspot.vercel.app/logspot-banner.png",
-    url: "https://logspot.vercel.app",
+      "长江后浪推前浪,浮世新人换旧人.",
+    image: "https://www.langs.ink/%E5%8E%9A%E6%B5%AA.svg",
+    url: "https://www.langs.ink/",
   },
 };

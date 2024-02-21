@@ -32,8 +32,10 @@ useHead({
       ],
     },
   ],
+  link:
+  { rel: "icon", href: '/icon.svg' },
 });
 const { data } = await useAsyncData("feed", () =>
-  queryContent("/posts").find()
+  queryContent("/posts").sort().find()
 );
 </script>

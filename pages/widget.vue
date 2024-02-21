@@ -5,7 +5,7 @@
     >
       <h1 class="text-gray-500 flex items-center text-sm">
         <span class="h-3 w-3 mr-2 rounded-full bg-primary"></span>
-        <span class="font-semibold"> Latest changes </span>
+        <span class="font-semibold"> 发展历史 </span>
       </h1>
     </header>
     <section class="min-h-[calc(100vh-102px)] pt-4">
@@ -20,17 +20,17 @@
     >
       <a
         class="text-gray-500"
-        href="https://github.com/fayazara/logspot"
+       
         target="_blank"
       >
-        Powered by logspot
+        长江后浪推前浪，浮世新人换旧人。
       </a>
       <a
         class="text-primary"
-        href="https://github.com/fayazara/logspot"
+        href="https://langs.ink"
         target="_blank"
       >
-        See all updates
+        厚浪
       </a>
     </footer>
   </main>
@@ -38,6 +38,6 @@
 
 <script setup>
 const { data } = await useAsyncData("feed", () =>
-  queryContent("/posts").find()
+  queryContent("/posts").sort().find()
 );
 </script>
